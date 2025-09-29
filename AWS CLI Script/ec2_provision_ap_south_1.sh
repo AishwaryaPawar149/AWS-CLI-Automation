@@ -71,4 +71,4 @@ sleep 5   # wait a few seconds for IP assignment
 PUBLIC_IP=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --region $REGION --query "Reservations[0].Instances[0].PublicIpAddress" --output text)
 echo "🌍 Public IP of instance: $PUBLIC_IP"
 
-read -p "✅ Script completed. Press Enter to exit..."
+read -p "✅ Script completed. Press Enter to exit......"
