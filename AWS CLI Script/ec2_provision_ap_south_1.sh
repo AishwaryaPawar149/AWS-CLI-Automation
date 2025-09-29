@@ -42,8 +42,7 @@ if [ -z "$SG_ID" ] || [ "$SG_ID" == "None" ]; then
     # Add inbound rules
     aws ec2 authorize-security-group-ingress --group-id $SG_ID --protocol tcp --port 22 --cidr 0.0.0.0/0 --region $REGION
     aws ec2 authorize-security-group-ingress --group-id $SG_ID --protocol tcp --port 80 --cidr 0.0.0.0/0 --region $REGION
-    aws ec2 authorize-security-group-ingress --group-id $SG_ID --protocol tcp --port 443 --cidr 0.0.0.0/0 --region $REGION
-    echo "✅ Inbound rules added to Security Group."
+        echo "✅ Inbound rules added to Security Group."
 else
     echo "✅ Security Group $SECURITY_GROUP_NAME already exists: $SG_ID"
 fi

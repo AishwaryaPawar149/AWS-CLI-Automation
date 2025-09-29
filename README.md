@@ -6,32 +6,7 @@ A full-stack web application built with PHP that enables users to upload images 
 
 ## 🏗 Architecture Overview
 
-```
-         User Browser
-             │
-             ▼
-       ┌───────────────┐
-       │   EC2 Instance │
-       │   PHP Backend  │
-       └───────┬───────┘
-               │
-      ┌───────────────┐
-      │     AWS S3     │
-      │ Image Storage  │
-      └───────────────┘
-               │
-               ▼
-       ┌───────────────┐
-       │   RDS MySQL    │
-       │ Metadata Store │
-       └───────────────┘
-               │
-               ▼
-       ┌───────────────┐
-       │ CloudWatch    │
-       │ Monitoring    │
-       └───────────────┘
-```
+![Architecture Overview](./Images/Architecture%20Diagram.png)
 
 ---
 
@@ -68,7 +43,7 @@ chmod +x ec2_provision_ap_south_1.sh
 This script will:
 
 * Create or verify SSH key pair (`new.pem`)
-* Set up security group `my-sg-mumbai` with ports 22, 80, 443
+* Set up security group `my-sg-mumbai` with ports 22, 80
 * Launch t3.micro EC2 instance with auto-assigned public IP
 * Tag the instance as `MyEC2Instance-AutoIP`
 
