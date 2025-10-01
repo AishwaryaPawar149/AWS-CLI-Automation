@@ -4,13 +4,13 @@ A full-stack web application built with PHP that enables users to upload images 
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 ![Architecture Overview](./Images/Architecture%20Diagram.png)
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **Secure Image Upload:** Supports multiple image formats with validation
 * **Cloud Storage:** Images stored in AWS S3 with presigned URLs (20 min expiry)
@@ -195,17 +195,22 @@ aws-image-upload/
 * **1. EC2 Instance Creation**
   ![EC2 Instance](./Images/Screenshot%20(96).png)
 
+
 * **2. S3 Bucket Creation**
   ![S3 Bucket](./Images/Screenshot%20(98).png)
+
 
 * **3. RDS MySQL Database Setup**
   ![RDS MySQL](./Images/Screenshot%20(99).png)
 
+
 * **4. CloudWatch Monitoring Setup**
   ![CloudWatch Alarm](./Images/Screenshot%20(100).png)
 
+
 * **6. Website Preview(index.html)**
   ![Website Preview(index.html)](./Images/Screenshot%20(104).png)
+
   
 * **5. Website Preview (upload.php)**
   ![Website Preview(upload.php)](./Images/Screenshot%20(103).png)  
