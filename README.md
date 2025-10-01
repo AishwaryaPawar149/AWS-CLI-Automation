@@ -22,7 +22,7 @@ A full-stack web application built with PHP that enables users to upload images 
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 * AWS CLI configured with appropriate credentials
 * PHP 7.4+ with required extensions
@@ -31,7 +31,7 @@ A full-stack web application built with PHP that enables users to upload images 
 
 ---
 
-## 🛠 Infrastructure Setup
+##  Infrastructure Setup
 
 ### 1. EC2 Instance Provisioning
 
@@ -81,7 +81,7 @@ Creates an alarm for CPU utilization > 70% for 5 minutes.
 
 ---
 
-## 🗄 Database Setup
+##  Database Setup
 
 Connect to your RDS instance and run the SQL commands:
 
@@ -104,7 +104,7 @@ CREATE TABLE images (
 
 ---
 
-## 🔧 Application Configuration
+##  Application Configuration
 
 ### PHP Dependencies
 
@@ -138,7 +138,7 @@ $bucket = 'your-s3-bucket-name';
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 aws-image-upload/
@@ -155,7 +155,7 @@ aws-image-upload/
 
 ---
 
-## 🚦 Usage
+##  Usage
 
 1. Access the Application: Navigate to your EC2 instance's public IP
 2. Upload Images: Use the web form to upload images with title and description
@@ -164,7 +164,7 @@ aws-image-upload/
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 * Security Groups: Minimal required ports
 * Presigned URLs: Temporary, secure access to S3 objects
@@ -174,14 +174,14 @@ aws-image-upload/
 
 ---
 
-## 📊 Monitoring & Alerts
+##  Monitoring & Alerts
 
 * CloudWatch Alarms for CPU utilization
 * Optional custom metrics via AWS SDK
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 * Connection Timeouts → Check security group & VPC rules
 * S3 Upload Errors → Verify IAM permissions & bucket policy
@@ -190,7 +190,7 @@ aws-image-upload/
 
 ---
 
-## 📸 Project Assets (Execution Flow)
+##  Project Assets (Execution Flow)
 
 * **1. EC2 Instance Creation**
   ![EC2 Instance](./Images/Screenshot%20(96).png)
@@ -215,7 +215,7 @@ aws-image-upload/
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project demonstrates how to build and deploy a **full-stack image upload application** on AWS using:
 
@@ -229,7 +229,7 @@ By integrating these services, the application achieves **scalability, security,
 
 ---
 
-## 📌 Project Highlights (Resume Friendly)
+##  Project Highlights (Resume Friendly)
 
 **Image Upload Application using AWS CLI | EC2, S3, RDS, CloudWatch, Shell Scripting**  
 - Built a **full-stack PHP application** to upload images, storing files in **S3** and metadata in **RDS MySQL**.  
