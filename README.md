@@ -193,30 +193,29 @@ aws-image-upload/
 ##  Project Assets (Execution Flow)
 
 * **1. EC2 Instance Creation**
-  ![EC2 Instance](./Images/Screenshot%20(96).png)
+  ![EC2 Instance](./Images/EC2-instance.png)
 
 
 * **2. S3 Bucket Creation**
-  ![S3 Bucket](./Images/Screenshot%20(98).png)
+  ![S3 Bucket](./Images/S3-bucket.png)
 
 
 * **3. RDS MySQL Database Setup**
-  ![RDS MySQL](./Images/Screenshot%20(99).png)
+  ![RDS MySQL](./Images/RDS-creation.png)
 
 
 * **4. CloudWatch Monitoring Setup**
-  ![CloudWatch Alarm](./Images/Screenshot%20(100).png)
-
+  ![CloudWatch Alarm](./Images/Cloudwatch-monitor.png)
 
 * **6. Website Preview(index.html)**
-  ![Website Preview(index.html)](./Images/Screenshot%20(104).png)
+  ![Website Preview(index.html)](./Images/index.html.png)
 
   
 * **5. Website Preview (upload.php)**
-  ![Website Preview(upload.php)](./Images/Screenshot%20(103).png)  
+  ![Website Preview(upload.php)](./Images/upload.php.png)  
 
 * **7. Uploaded Image in S3 Bucket**
-  ![S3 Image Upload](./Images/Screenshot%20(106).png)
+  ![S3 Image Upload](./Images/rds-s3-bucket.png)
 
 ---
 
